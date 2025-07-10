@@ -14,6 +14,7 @@
 ```bash
 g++ -std=c++17 -o miniredis main.cpp redis.cpp
 ./miniredis
+```
  
 ## Example
 
@@ -23,6 +24,7 @@ redis> GET name
 shawon
 redis> DEL name
 OK
+```
 
 ## Roadmap
 
